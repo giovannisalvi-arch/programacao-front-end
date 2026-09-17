@@ -1,0 +1,28 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: large;
+}
+.logo, .menu{
+    color: white;
+    font-size: 25px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #f0f0f0;
+    padding: 30px;
+    flex: 1 1 200px;
+    text-align: center;
+}
